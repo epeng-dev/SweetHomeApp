@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sweetfab.sw.schoolautomation.MainActivity"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:paddingTop="5dp"
+        android:id="@+id/imageView"
+        android:background="@color/SweetFabBlack"
+        android:transitionName="@string/sharedanimation"/>
+    <android.support.v7.widget.RecyclerView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.9"
+        android:id="@+id/recyclerview"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>
